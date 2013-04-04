@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 HHP. All rights reserved.
 //
 
-#import "GAppDelegate.h"
+#import "PAppDelegate.h"
 
-@implementation GAppDelegate
+@implementation PAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

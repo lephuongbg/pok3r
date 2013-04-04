@@ -12,12 +12,12 @@
 		82927289170DBFA800B70B21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82927288170DBFA800B70B21 /* CoreGraphics.framework */; };
 		8292728F170DBFA800B70B21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8292728D170DBFA800B70B21 /* InfoPlist.strings */; };
 		82927291170DBFA800B70B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82927290170DBFA800B70B21 /* main.m */; };
-		82927295170DBFA800B70B21 /* GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82927294170DBFA800B70B21 /* GAppDelegate.m */; };
+		82927295170DBFA800B70B21 /* PAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82927294170DBFA800B70B21 /* PAppDelegate.m */; };
 		82927297170DBFA800B70B21 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82927296170DBFA800B70B21 /* Default.png */; };
 		82927299170DBFA800B70B21 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82927298170DBFA800B70B21 /* Default@2x.png */; };
 		8292729B170DBFA800B70B21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8292729A170DBFA800B70B21 /* Default-568h@2x.png */; };
 		8292729E170DBFA800B70B21 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8292729C170DBFA800B70B21 /* MainStoryboard.storyboard */; };
-		829272A1170DBFA800B70B21 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829272A0170DBFA800B70B21 /* GViewController.m */; };
+		829272A1170DBFA800B70B21 /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829272A0170DBFA800B70B21 /* PViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +29,14 @@
 		8292728E170DBFA800B70B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82927290170DBFA800B70B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82927292170DBFA800B70B21 /* Pok3r-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pok3r-Prefix.pch"; sourceTree = "<group>"; };
-		82927293170DBFA800B70B21 /* GAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAppDelegate.h; sourceTree = "<group>"; };
-		82927294170DBFA800B70B21 /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
+		82927293170DBFA800B70B21 /* PAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAppDelegate.h; sourceTree = "<group>"; };
+		82927294170DBFA800B70B21 /* PAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAppDelegate.m; sourceTree = "<group>"; };
 		82927296170DBFA800B70B21 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		82927298170DBFA800B70B21 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8292729A170DBFA800B70B21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8292729D170DBFA800B70B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8292729F170DBFA800B70B21 /* GViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
-		829272A0170DBFA800B70B21 /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
+		8292729F170DBFA800B70B21 /* PViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PViewController.h; sourceTree = "<group>"; };
+		829272A0170DBFA800B70B21 /* PViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 		8292728A170DBFA800B70B21 /* Pok3r */ = {
 			isa = PBXGroup;
 			children = (
-				82927293170DBFA800B70B21 /* GAppDelegate.h */,
-				82927294170DBFA800B70B21 /* GAppDelegate.m */,
+				82927293170DBFA800B70B21 /* PAppDelegate.h */,
+				82927294170DBFA800B70B21 /* PAppDelegate.m */,
 				8292729C170DBFA800B70B21 /* MainStoryboard.storyboard */,
-				8292729F170DBFA800B70B21 /* GViewController.h */,
-				829272A0170DBFA800B70B21 /* GViewController.m */,
+				8292729F170DBFA800B70B21 /* PViewController.h */,
+				829272A0170DBFA800B70B21 /* PViewController.m */,
 				8292728B170DBFA800B70B21 /* Supporting Files */,
 			);
 			path = Pok3r;
@@ -175,8 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82927291170DBFA800B70B21 /* main.m in Sources */,
-				82927295170DBFA800B70B21 /* GAppDelegate.m in Sources */,
-				829272A1170DBFA800B70B21 /* GViewController.m in Sources */,
+				82927295170DBFA800B70B21 /* PAppDelegate.m in Sources */,
+				829272A1170DBFA800B70B21 /* PViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +293,7 @@
 				829272A6170DBFA800B70B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

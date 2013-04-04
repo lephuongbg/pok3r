@@ -1,5 +1,5 @@
 //
-//  GViewController.h
+//  GAppDelegate.h
 //  Pok3r
 //
 //  Created by Le Phuong on 4/4/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GViewController : UIViewController
+@interface PAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

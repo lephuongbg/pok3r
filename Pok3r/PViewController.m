@@ -1,14 +1,14 @@
 //
-//  GViewController.m
+//  PViewController.m
 //  Pok3r
 //
 //  Created by Le Phuong on 4/4/13.
 //  Copyright (c) 2013 HHP. All rights reserved.
 //
 
-#import "GViewController.h"
+#import "PViewController.h"
 
-@interface GViewController ()
+@interface PViewController ()
 
 @end
 
