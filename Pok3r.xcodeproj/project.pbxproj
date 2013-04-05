@@ -18,6 +18,12 @@
 		8292729B170DBFA800B70B21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8292729A170DBFA800B70B21 /* Default-568h@2x.png */; };
 		8292729E170DBFA800B70B21 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8292729C170DBFA800B70B21 /* MainStoryboard.storyboard */; };
 		829272A1170DBFA800B70B21 /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829272A0170DBFA800B70B21 /* PViewController.m */; };
+		82FE4B15170E6AFC00170401 /* PCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE4B14170E6AFC00170401 /* PCard.m */; };
+		82FE4B19170E6C6000170401 /* PHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE4B18170E6C6000170401 /* PHand.m */; };
+		82FE4B1C170E6C7200170401 /* PDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE4B1B170E6C7200170401 /* PDeck.m */; };
+		82FE4B1F170E6C9500170401 /* PEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE4B1E170E6C9500170401 /* PEngine.m */; };
+		82FE4B22170E6CFC00170401 /* PPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE4B21170E6CFC00170401 /* PPlayer.m */; };
+		82FE4B25170E6E1500170401 /* PHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE4B24170E6E1500170401 /* PHouse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,18 @@
 		8292729D170DBFA800B70B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8292729F170DBFA800B70B21 /* PViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PViewController.h; sourceTree = "<group>"; };
 		829272A0170DBFA800B70B21 /* PViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PViewController.m; sourceTree = "<group>"; };
+		82FE4B13170E6AFC00170401 /* PCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCard.h; sourceTree = "<group>"; };
+		82FE4B14170E6AFC00170401 /* PCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCard.m; sourceTree = "<group>"; };
+		82FE4B17170E6C6000170401 /* PHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHand.h; sourceTree = "<group>"; };
+		82FE4B18170E6C6000170401 /* PHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHand.m; sourceTree = "<group>"; };
+		82FE4B1A170E6C7100170401 /* PDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDeck.h; sourceTree = "<group>"; };
+		82FE4B1B170E6C7200170401 /* PDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDeck.m; sourceTree = "<group>"; };
+		82FE4B1D170E6C9500170401 /* PEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEngine.h; sourceTree = "<group>"; };
+		82FE4B1E170E6C9500170401 /* PEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEngine.m; sourceTree = "<group>"; };
+		82FE4B20170E6CFC00170401 /* PPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPlayer.h; sourceTree = "<group>"; };
+		82FE4B21170E6CFC00170401 /* PPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPlayer.m; sourceTree = "<group>"; };
+		82FE4B23170E6E1500170401 /* PHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHouse.h; sourceTree = "<group>"; };
+		82FE4B24170E6E1500170401 /* PHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +101,24 @@
 		8292728A170DBFA800B70B21 /* Pok3r */ = {
 			isa = PBXGroup;
 			children = (
+				82FE4B1D170E6C9500170401 /* PEngine.h */,
+				82FE4B1E170E6C9500170401 /* PEngine.m */,
 				82927293170DBFA800B70B21 /* PAppDelegate.h */,
 				82927294170DBFA800B70B21 /* PAppDelegate.m */,
 				8292729C170DBFA800B70B21 /* MainStoryboard.storyboard */,
 				8292729F170DBFA800B70B21 /* PViewController.h */,
+				82FE4B13170E6AFC00170401 /* PCard.h */,
+				82FE4B14170E6AFC00170401 /* PCard.m */,
 				829272A0170DBFA800B70B21 /* PViewController.m */,
 				8292728B170DBFA800B70B21 /* Supporting Files */,
+				82FE4B17170E6C6000170401 /* PHand.h */,
+				82FE4B18170E6C6000170401 /* PHand.m */,
+				82FE4B1A170E6C7100170401 /* PDeck.h */,
+				82FE4B1B170E6C7200170401 /* PDeck.m */,
+				82FE4B20170E6CFC00170401 /* PPlayer.h */,
+				82FE4B21170E6CFC00170401 /* PPlayer.m */,
+				82FE4B23170E6E1500170401 /* PHouse.h */,
+				82FE4B24170E6E1500170401 /* PHouse.m */,
 			);
 			path = Pok3r;
 			sourceTree = "<group>";
@@ -133,7 +163,7 @@
 		82927277170DBFA800B70B21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = G;
+				CLASSPREFIX = P;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = HHP;
 			};
@@ -177,6 +207,12 @@
 				82927291170DBFA800B70B21 /* main.m in Sources */,
 				82927295170DBFA800B70B21 /* PAppDelegate.m in Sources */,
 				829272A1170DBFA800B70B21 /* PViewController.m in Sources */,
+				82FE4B15170E6AFC00170401 /* PCard.m in Sources */,
+				82FE4B19170E6C6000170401 /* PHand.m in Sources */,
+				82FE4B1C170E6C7200170401 /* PDeck.m in Sources */,
+				82FE4B1F170E6C9500170401 /* PEngine.m in Sources */,
+				82FE4B22170E6CFC00170401 /* PPlayer.m in Sources */,
+				82FE4B25170E6E1500170401 /* PHouse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
